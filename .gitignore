@@ -9,6 +9,14 @@
 **/ckpt_old/
 **/ckpt_large_beta/
 
+# 忽略大模型文件和中间结果
+*.pkl
+*.joblib
+*.pt
+*.npy
+*.h5
+*.ckpt
+
 
 **/*.pt
 **/*.npy
