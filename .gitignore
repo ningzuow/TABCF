@@ -1,7 +1,7 @@
 **/*.pyc
 
-/data/*
-!/data/Info/
+#/data/*
+#!/data/Info/
 /synthetic/
 /images/
 **/__pycache__/
