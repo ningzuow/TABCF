@@ -1,0 +1,41 @@
+{
+    "name": "glass",
+    "task_type": "binclass",
+    "header": 0,
+    "column_names": [
+        "Ri",
+        "Na",
+        "Mg",
+        "Al",
+        "Si",
+        "K",
+        "Ca",
+        "Ba",
+        "Fe",
+        "Type"
+    ],
+    "immutable":[
+    ],
+    "ignore_columns":[
+    ],
+    "target_col":"Type",
+    "file_type": "csv",
+    "data_path": "data/glass/glass.csv",
+    "test_path": null,
+    "column_info": {
+        "Ri": "float",
+        "Na": "float",
+        "Mg": "float",
+        "Al": "float",
+        "Si": "float",
+        "K": "float",
+        "Ca": "float",
+        "Ba": "float",
+        "Fe": "float",
+        "Type": "int"
+    },
+    "preprocess_columns":{
+    },
+    "train_num": 214,
+    "test_num": 0
+}
