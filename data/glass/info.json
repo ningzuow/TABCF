@@ -1,0 +1,212 @@
+{
+    "name": "glass",
+    "task_type": "binclass",
+    "header": 0,
+    "column_names": [
+        "Ri",
+        "Na",
+        "Mg",
+        "Al",
+        "Si",
+        "K",
+        "Ca",
+        "Ba",
+        "Fe",
+        "Type"
+    ],
+    "immutable": [],
+    "ignore_columns": [],
+    "target_col": "Type",
+    "file_type": "csv",
+    "data_path": "data/glass/glass.csv",
+    "test_path": null,
+    "column_info": {
+        "0": {},
+        "type": "categorical",
+        "max": 0.51,
+        "min": 0.0,
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "categorizes": [
+            0,
+            1
+        ]
+    },
+    "preprocess_columns": {},
+    "train_num": 192,
+    "test_num": 22,
+    "target_class": 1,
+    "negative_class": 0,
+    "column_domain": {
+        "Ri": [
+            1.51115,
+            1.53393
+        ],
+        "Na": [
+            10.73,
+            17.38
+        ],
+        "Mg": [
+            0.0,
+            4.49
+        ],
+        "Al": [
+            0.29,
+            3.5
+        ],
+        "Si": [
+            69.81,
+            75.41
+        ],
+        "K": [
+            0.0,
+            6.21
+        ],
+        "Ca": [
+            5.43,
+            16.19
+        ],
+        "Ba": [
+            0.0,
+            3.15
+        ],
+        "Fe": [
+            0.0,
+            0.51
+        ]
+    },
+    "num_max": {
+        "Ri": "1.53393",
+        "Na": "17.38",
+        "Mg": "4.49",
+        "Al": "3.5",
+        "Si": "75.41",
+        "K": "6.21",
+        "Ca": "16.19",
+        "Ba": "3.15",
+        "Fe": "0.51"
+    },
+    "num_min": {
+        "Ri": "1.51115",
+        "Na": "10.73",
+        "Mg": "0.0",
+        "Al": "0.29",
+        "Si": "69.81",
+        "K": "0.0",
+        "Ca": "5.43",
+        "Ba": "0.0",
+        "Fe": "0.0"
+    },
+    "input_col_order": [
+        "Ri",
+        "Na",
+        "Mg",
+        "Al",
+        "Si",
+        "K",
+        "Ca",
+        "Ba",
+        "Fe"
+    ],
+    "idx_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9
+    },
+    "inverse_idx_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9
+    },
+    "idx_name_mapping": {
+        "0": "Ri",
+        "1": "Na",
+        "2": "Mg",
+        "3": "Al",
+        "4": "Si",
+        "5": "K",
+        "6": "Ca",
+        "7": "Ba",
+        "8": "Fe",
+        "9": "Type"
+    },
+    "num_col_idx": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+    ],
+    "cat_col_idx": [],
+    "target_col_idx": [
+        9
+    ],
+    "metadata": {
+        "columns": {
+            "0": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "1": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "2": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "3": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "4": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "5": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "6": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "7": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "8": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "9": {
+                "sdtype": "categorical"
+            }
+        }
+    }
+}
